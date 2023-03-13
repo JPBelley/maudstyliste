@@ -1,48 +1,10 @@
-:root {
-  --border-radius: 4px;
-  --color-text: #333;
-  --color-primary: #7026b9;
-  --color-code-bg: #fff4db;
-  --color-code: #8a6534;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-  --font-lg: 18px;
-  --font-md: 16px;
-  --font-sm: 14px;
-  --font-sx: 12px;
-  --line-height-loose: 1.75;
-  --line-height-normal: 1.5;
-  --line-height-dense: 1.1;
-  --space-1: 4px;
-  --space-2: 8px;
-  --space-3: 16px;
-  --space-4: 24px;
-  --space-5: 32px;
-  --space-6: 64px;
-  --size-content: 54rem;
-  --size-gutter: var(--space-5);
-  --size-gap: var(--space-6);
-}
-html {
-  -webkit-text-size-adjust: 100%;
-  box-sizing: border-box;
-  font: sans-serif;
-  font-size: var(--font-md);
-  line-height: var(--line-height-normal);
-  overflow-y: scroll;
-}
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  color: var(--color-text);
-  font-family: sans-serif;
-  font-family: var(--font-sans);
-  font-weight: normal;
-  margin: 0;
-  word-wrap: break-word;
-}
+@import '../scss/root.scss';
+@import '../scss/fonts.scss';
+@import '../scss/typo.scss';
+
+@import '../scss/nav.scss';
+@import '../scss/hero.scss';
+
 a {
   background-color: transparent;
   color: var(--color-primary);
@@ -69,16 +31,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  margin: 0;
-  margin-bottom: 3rem;
-  padding: 0;
-  line-height: var(--line-height-dense);
-  letter-spacing: -0.01em;
-}
-h1 > b {
-  color: var(--color-primary);
 }
 img {
   border-style: none;
@@ -221,4 +173,13 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: none;
+}
+
+.bg-img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

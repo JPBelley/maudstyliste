@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Maud Berthelot | Styliste de mode personnelle Montréal`,
+    description: `Styliste de mode personnelle à Montréal. Maud vous aidera à identifier vos besoins tout en respectant la personnalité de chaque personne, de sa morphologie ainsi que de sa beauté naturelle!`,
+    author: `Maud Berthelot`,
+    siteUrl: `http://maudstyliste.ca/`,
   },
   plugins: [
     `gatsby-plugin-image`,

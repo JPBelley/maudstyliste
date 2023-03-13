@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--size-content);
+    margin: 0 auto;
+}
+
+header .gatsby-image-wrapper {
+    max-width: 150px;
+}
