@@ -5,3 +5,42 @@ h1 {
     font-weight: 400;
     margin-top: 0;
 }
+
+h2 {
+    font-family: "Raleway";
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+    @media (min-width: 768px) {
+        font-size: 60px;
+    }
+}
+
+.signature {
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-family: "Damion";
+    text-align: left;
+    font-style: inherit;
+    font-weight: inherit;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.md\:text-left {
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}

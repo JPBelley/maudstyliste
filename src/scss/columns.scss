@@ -1,0 +1,12 @@
+.columns {
+    @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.column {
+    @media (min-width: 768px) {
+        flex-basis: 100%;
+    }
+}

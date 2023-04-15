@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/maudstyliste/",
   siteMetadata: {
     title: `Maud Berthelot | Styliste de mode personnelle Montréal`,
     description: `Styliste de mode personnelle à Montréal. Maud vous aidera à identifier vos besoins tout en respectant la personnalité de chaque personne, de sa morphologie ainsi que de sa beauté naturelle!`,
@@ -24,6 +25,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

@@ -1,9 +1,11 @@
 @import '../scss/root.scss';
 @import '../scss/fonts.scss';
 @import '../scss/typo.scss';
+@import '../scss/spacing.scss';
 
 @import '../scss/nav.scss';
 @import '../scss/hero.scss';
+@import '../scss/columns.scss';
 
 a {
   background-color: transparent;
@@ -175,7 +177,7 @@ pre tt:after {
   content: none;
 }
 
-.bg-img {
+.gatsby-image-wrapper.bg-img {
   position: absolute;
   z-index: -1;
   top: 0;

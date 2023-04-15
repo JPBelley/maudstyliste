@@ -4,6 +4,9 @@ header {
     align-items: center;
     max-width: var(--size-content);
     margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 header .gatsby-image-wrapper {
